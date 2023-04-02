@@ -3,7 +3,7 @@ use clap::{App, Arg, SubCommand};
 use rsa::{PublicKey, RsaPrivateKey, RsaPublicKey, PaddingScheme};
 use std::fs::{File};
 use std::io::{Read};
-use rsa::pkcs1::{FromRsaPrivateKey, FromRsaPublicKey, ToRsaPublicKey};
+use rsa::pkcs1::{FromRsaPublicKey, ToRsaPublicKey};
 use rsa::pkcs8::{FromPrivateKey, ToPrivateKey};
 
 fn main() {
